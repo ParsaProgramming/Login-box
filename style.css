@@ -1,0 +1,122 @@
+/* reset css */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #080710;
+    font-family: Poppins;
+}
+
+.circle__1 {
+    position: absolute;
+    top: 20px;
+    left: 300px;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    background-color: #d94b28;
+    background-image: linear-gradient(45deg, #d94b28 0%, #e88e1a 100%);
+}
+
+.circle__2 {
+    position: absolute;
+    left: 800px;
+    top: 450px;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    background-color: #8BC6EC;
+    background-image: linear-gradient(135deg, #8BC6EC 0%, #9599E2 100%);
+}
+
+.login__box {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: rgba(255, 255, 255, 0.1);
+    padding: 20px;
+    width: 400px;
+    height: 500px;
+    backdrop-filter: blur(10px);
+    color: white;
+    border-radius: 10px;
+}
+
+.login__box h1 {
+    text-align: center;
+    font-size: 40px;
+    font-weight: normal;
+}
+
+.login__box .usernamebx input,
+.login__box .passwordbx input {
+    background: rgba(255, 255, 255, 0.13);
+    border: none;
+    outline: none;
+    width: 100%;
+    font-size: 19px;
+    padding: 15px;
+    border-radius: 5px;
+    color: white;
+    margin: 10px 0px 10px 0px;
+}
+
+.login__box .usernamebx label,
+.login__box .passwordbx label {
+    display: block;
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+.login__box input[type=submit] {
+    width: 100%;
+    padding: 15px;
+    margin-top: 20px;
+    background: #ffffff;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    font-size: 20px;
+    font-family: Poppins;
+    cursor: pointer;
+}
+
+.login__box .social-btns {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.login__box .social-btns button {
+    background: rgba(255, 255, 255, 0.07);
+    backdrop-filter: blur(10px);
+    border: none;
+    padding: 15px;
+    color: white;
+    font-family: Poppins;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    width: 100%;
+    margin-left: 10px;
+    cursor: pointer;
+    transition: background 0.5s ease;
+    
+
+
+}
+
+.login__box .social-btns button:hover{
+    background: rgba(255, 255, 255, 0.2)
+}
+
+.login__box .social-btns button i{
+    margin-right: 15px;
+    font-size: 20px;
+}
